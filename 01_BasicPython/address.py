@@ -17,10 +17,10 @@ book['bob'] = {
 s = json.dumps(book)
 print(s)
 
-with open("/BasicPython\\test.txt", "w") as f:
+with open("/01_BasicPython\\test.txt", "w") as f:
     f.write(s)
 
 print("File content :- ")
-f = open("/BasicPython\\test.txt", 'r')
+f = open("/01_BasicPython\\test.txt", 'r')
 s = f.read()
 print(s)
